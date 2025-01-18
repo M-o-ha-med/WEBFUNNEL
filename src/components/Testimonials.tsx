@@ -5,19 +5,20 @@
 */}
 import { useEffect, useRef , useState } from "react";
 import KeenSlider from "keen-slider";
+import { KeenSliderInstance } from "keen-slider";
 import "keen-slider/keen-slider.min.css";
 
 
 export default function Testimonials() {
   const sliderRef = useRef(null);
-  const keenSliderInstance = useRef(null);
+  const keenSliderInstance = useRef<KeenSliderInstance | null>(null);;
   const [page , setPage] = useState(1);
   const totalPage = 4;
   useEffect(() => {
     const sliderElement = sliderRef.current;
 
     // Initialize KeenSlider
-    keenSliderInstance.current = new KeenSlider(sliderElement, {
+    keenSliderInstance.current = new KeenSlider(sliderElement!, {
       loop: true,
       defaultAnimation: { duration: 750 },
       slides: {
@@ -56,7 +57,7 @@ export default function Testimonials() {
       },
     });
 
-	function updateActiveSlide(slider) {
+	function updateActiveSlide(slider: KeenSliderInstance) {
 	  const currentSlide = slider.track.details.rel;
 	  setPage(currentSlide + 1); // Adjust for 0-based index
 	  const slides = slider.slides;
