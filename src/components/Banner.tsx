@@ -15,7 +15,7 @@ return (
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
-    <div className="max-w-xl text-justify ltr:sm:text-left rtl:sm:text-right">
+    <div className="max-w-xl  ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl text-emerald-400 font-extrabold sm:text-5xl ">
        Merancang masa depan 
 
