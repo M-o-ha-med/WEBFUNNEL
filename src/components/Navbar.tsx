@@ -31,7 +31,7 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="../public/logoapp.svg"
+                src="../logoapp.svg"
                 className="h-16 w-auto"
               />
             </div>
