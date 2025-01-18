@@ -17,9 +17,9 @@ return (
   >
     <div className="max-w-xl text-justify ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl text-emerald-400 font-extrabold sm:text-5xl ">
-       Make your dream house
+       Merancang masa depan 
 
-        <strong className="block font-extrabold text-emerald-600"> Comes true. </strong>
+        <strong className="block font-extrabold text-emerald-600"> melebihi ekspektasi Anda </strong>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
