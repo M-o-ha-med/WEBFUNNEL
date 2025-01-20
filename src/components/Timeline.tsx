@@ -11,7 +11,7 @@ export default function Timeline() {
         <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-greenleaf-600 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-greenleaf col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
@@ -32,7 +32,7 @@ export default function Timeline() {
               </div>
               <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-emerald-500 shadow"></div>
             </div>
-            <div className="bg-greenleaf-600 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="bg-greenleaf col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, facilis.
@@ -41,7 +41,7 @@ export default function Timeline() {
           </div>
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-greenleaf-600 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-greenleaf col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
@@ -56,7 +56,7 @@ export default function Timeline() {
           </div>
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-greenleaf-600 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-greenleaf col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
@@ -77,7 +77,7 @@ export default function Timeline() {
               </div>
               <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-emerald-500 shadow"></div>
             </div>
-            <div className="bg-greenleaf-600 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="bg-greenleaf col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, facilis.
