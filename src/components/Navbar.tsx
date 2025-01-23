@@ -1,11 +1,14 @@
 import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/react'
+import React, { useEffect } from "react";
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom';
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: false },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Home', href: '/', current: false , id : "Home" },
+  { name: 'Visi dan Misi', href: '/', current: false, id : "VisidanMisi" },
+  { name: 'Portofolio', href: '/', current: false, id : "Portfolio"  },
+  { name: 'Alur Kerja', href: '/', current: false, id : "AlurKerja"  },
+  { name: 'Testimoni', href: '/testimoni', current: false, id : "Testimoni"  },
 ]
 
 function classNames(...classes: (string | undefined | null | false)[]): string {
@@ -14,6 +17,13 @@ function classNames(...classes: (string | undefined | null | false)[]): string {
 
 
 export default function Navbar() {
+  useEffect(() => {
+    let url = window.location.href.split("/");
+    let target = url[url.length - 1].toLowerCase();
+    let element = document.getElementById(target);
+    element && element.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+  
   return (
     <Disclosure as="nav" className="bg-white shadow-sm">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -30,7 +40,7 @@ export default function Navbar() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
               <img
-                alt="Your Company"
+                alt="Anugerah Cipta Arsitektur"
                 src="../logoapp.svg"
                 className="h-16 w-auto"
               />
@@ -38,17 +48,27 @@ export default function Navbar() {
             <div className="hidden md:flex px-4 py-4 mx-auto font-semibold font-heading space-x-12">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
-                    aria-current={item.current ? 'page' : undefined}
+                    to={item.href}
+                    aria-current={item.current ? 'page' : item.name}
                     className={classNames(
-                      item.current ? 'text-emerald-500' : 'text-emerald-400 hover:text-emerald-600',
-                      'rounded-md px-3 py-2 text-sm font-medium text-emerald-600',
+                      item.current ? 'text-bilbao-600' : 'text-bilbao-400 hover:text-bilbao-600 hover:border-b border-bilbao-500 transition-colors',
+                      'px-3 py-2 text-sm  font-medium text-bilbao-700',
                     )}
+					onClick={() => {
+					let hero = document.getElementById(item.id);
+					  if (hero) {
+						hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
+						window.history.pushState(item.id, item.id, item.href); // Update URL
+					  } else {
+						console.warn(`Element with id "${item.id}" not found`);
+					  }
+					
+					}}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -62,12 +82,22 @@ export default function Navbar() {
             <DisclosureButton
               key={item.name}
               as="a"
-              href={item.href}
+              to={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
                 item.current ? 'bg-gray-900 text-emerald-100' : 'text-emerald-400 hover:bg-gray-700 hover:text-emerald-100',
                 'block rounded-md px-3 py-2 text-base font-medium text-emerald-100',
               )}
+				onClick={() => {
+				let hero = document.getElementById(item.id);
+				if (hero) {
+					hero.scrollIntoView({ behavior: "smooth", block: "start" });
+					window.history.pushState(item.id, item.id, item.href); // Update URL
+				} 
+				else {
+					console.warn(`Element with id "${item.id}" not found`);
+				}
+			}}
             >
               {item.name}
             </DisclosureButton>

@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="mt-2 space-y-2 items-center">
               <li>
 				  <a
-					href="/"
+					href="https://www.instagram.com/anugerahciptaarsitektur"
 					className="flex items-center space-x-2 text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
 				  >
 					<svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li>
 				  <a
-					href="/"
+					href="https://web.facebook.com/anugerahciptaarsitektur"
 					className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400 flex items-center space-x-2 "
 				  >
 					<svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li>
 				  <a
-					href="/"
+					href="https://www.linkedin.com/company/anugerah-cipta-arsitektur/"
 					className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400 flex items-center space-x-2"
 					
 				  >

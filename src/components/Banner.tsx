@@ -2,24 +2,21 @@
 export default function  Banner() {
 return (
 <section
-  className="relative bg-[url(../foto-sampul.jpg)] bg-cover bg-center bg-no-repeat"
+  className="relative bg-[url(../foto-sampul.jpg)] bg-cover bg-center bg-no-repeat" id="Home"
 >
 <div
   className="absolute inset-0 bg-gradient-to-r from-white/95 to-white/25"
 ></div>
 
 
-
-
-
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
     <div className="max-w-xl  ltr:sm:text-left rtl:sm:text-right">
-      <h1 className="text-3xl text-emerald-400 font-extrabold sm:text-5xl ">
+      <h1 className="text-3xl text-bilbao-600 font-extrabold sm:text-5xl ">
        Merancang masa depan 
 
-        <strong className="block font-extrabold text-emerald-600"> melebihi ekspektasi Anda </strong>
+        <strong className="block font-extrabold text-emerald-600"> Melebihi ekspektasi anda </strong>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">

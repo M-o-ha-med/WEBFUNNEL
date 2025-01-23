@@ -1,16 +1,14 @@
 
 
-export default function Timeline() {
+export default function Timeline_Planning() {
   return (
 	
-    <section className="flex items-center justify-center min-h-screen bg-white" id="AlurKerja">
+    <div className="flex items-center justify-center min-h-screen bg-white">
 	
       <div className="container">
-	  	 <h2 className="text-center text-4xl font-bold tracking-tight m-4  text-gray-900 sm:text-5xl">
-		Here are the outline for our work process 
-     </h2>
-	 <h5 className="text-4xl font-semibold tracking-tight py-2 xl:px-0 xl:mx-10 mx-4 my-4">Design</h5>
-        <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+
+	 <h5 className="text-4xl font-semibold tracking-tight py-6 xl:px-0 xl:mx-10 mx-4 my-4">Planning</h5>
+       <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
             <div className="bg-bilbao-700 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
@@ -107,7 +105,7 @@ export default function Timeline() {
       </div>
 	  
 
-    </section>
+    </div>
 	
 	
 	
