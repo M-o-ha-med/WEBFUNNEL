@@ -1,5 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/react'
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom';
 
@@ -51,7 +51,6 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    aria-current={item.current ? 'page' : item.name}
                     className={classNames(
                       item.current ? 'text-bilbao-600' : 'text-bilbao-400 hover:text-bilbao-600 hover:border-b border-bilbao-500 transition-colors',
                       'px-3 py-2 text-sm  font-medium text-bilbao-700',
@@ -82,8 +81,6 @@ export default function Navbar() {
             <DisclosureButton
               key={item.name}
               as="a"
-              to={item.href}
-              aria-current={item.current ? 'page' : undefined}
               className={classNames(
                 item.current ? 'bg-gray-900 text-emerald-100' : 'text-emerald-400 hover:bg-gray-700 hover:text-emerald-100',
                 'block rounded-md px-3 py-2 text-base font-medium text-emerald-100',
