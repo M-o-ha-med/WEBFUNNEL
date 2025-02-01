@@ -1,30 +1,27 @@
 export default function Footer() {
   return (
-    <div className="px-4 pt-16  sm:max-w-full md:max-w-full  md:px-24 lg:px-8 shadow-sm">
-      <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+    <div className="px-2 pt-16  sm:max-w-full md:max-w-full  md:px-4 lg:px-8 shadow-sm bg-gray-50">
+      <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-3">
 
-        <div className="grid grid-cols-2 gap-8 row-gap-8 lg:col-span-4 md:grid-cols-4">
-          
+        <div className="grid grid-cols-2 gap-8 row-gap-8 lg:col-span-4 md:grid-cols-3">
+          <img src="../logoapp.svg" className="w-3/4 lg:w-1/4 mx-auto"/>
           <div>
             <p className="font-semibold tracking-wide text-gray-800">
-              Jam Kerja
+              Alamat dan Jam Operasional
             </p>
+			<p className="font-normal text-xl tracking-wide text-justify text-gray-600">
+				Jl. Bina Asih Timur I No.2, Cipamukolan, Kec. Rancasari Kota Bandung Jawa Barat · 11 km
+			</p>
             <ul className="mt-2 space-y-2">
               <li>
                 <a
                   href="/"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  <span>Senin - Jum'at<br />(08.00 - 17.00)</span>
+                  <span className="text-xl">Senin - Jum'at<br />(08.00 - 17.00)</span>
                 </a>
               </li>
             </ul>
-          </div>
-          <div>
-            <p className="font-semibold tracking-wide text-gray-800">Alamat</p>
-			<p className="font-normal text-sm text-justify">
-				Jl. Bina Asih Timur I No.2, Cipamokolan, Kec. Rancasari Kota Bandung Jawa Barat · 11 km
-			</p>
           </div>
           <div>
             <p className="font-semibold tracking-wide text-gray-800">Kontak</p>
@@ -73,8 +70,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between pt-5 pb-10  border-t-2 border-t-emerald-500  sm:flex-row">
-        <p className="text-sm text-gray-600">
+      <div className="flex flex-col  pt-5 pb-10  border-t-2 border-t-emerald-500 justify-center items-center sm:flex-row ">
+        <p className="text-sm text-gray-800">
           © Copyright 2025 PT.Anugerah Cipta Arsitektur All rights reserved.
         </p>
       </div>

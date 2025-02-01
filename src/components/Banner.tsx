@@ -2,7 +2,7 @@
 export default function  Banner() {
 return (
 <section
-  className="relative bg-[url(../foto-sampul.jpg)] bg-cover bg-center bg-no-repeat" id="Home"
+  className="relative bg-[url(../foto-sampul.jpg)] bg-cover bg-center bg-no-repeat w-screen" id="Home" 
 >
 <div
   className="absolute inset-0 bg-gradient-to-r from-white/95 to-white/25"
@@ -19,10 +19,18 @@ return (
         <strong className="block font-extrabold text-emerald-600"> Melebihi ekspektasi anda </strong>
       </h1>
 
-      <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-        numquam ea!
+      <p className="mt-4 max-w-lg text-justify sm:text-xl/relaxed font-semibold">
+		Wujudkan rumah impian Anda! Dari konsep hingga eksekusi, mulai dari Renovasi hingga membangun dari nol.
+		kami pastikan setiap detail dirancang dengan fungsionalitas, estetika, dan kualitas terbaik. 
       </p>
+	  
+	  <p className="mt-4 max-w-lg sm:text-xl/relaxed font-bold">
+		Klik di bawah untuk memulai konsultasi dan wujudkan rumah impian Anda sekarang!
+	  </p>
+	  
+	  
+	  
+	  
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
@@ -32,12 +40,6 @@ return (
           Get Started
         </a>
 
-        <a
-          href="#"
-          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-emerald-600 shadow hover:text-emerald-700 focus:outline-none focus:ring active:text-emerald-500 sm:w-auto"
-        >
-          Learn More
-        </a>
       </div>
     </div>
   </div>

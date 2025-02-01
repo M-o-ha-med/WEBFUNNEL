@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '/', current: false , id : "Home" },
-  { name: 'Visi dan Misi', href: '/', current: false, id : "VisidanMisi" },
+  { name: 'Tentang kami', href: '/', current: false, id : "VisidanMisi" },
   { name: 'Portofolio', href: '/', current: false, id : "Portfolio"  },
   { name: 'Alur Kerja', href: '/', current: false, id : "AlurKerja"  },
-  { name: 'Testimoni', href: '/testimoni', current: false, id : "Testimoni"  },
+  { name: 'Testimoni', href: '/', current: false, id : "Testimoni"  },
 ]
 
 function classNames(...classes: (string | undefined | null | false)[]): string {
@@ -25,7 +25,7 @@ export default function Navbar() {
   }, []);
   
   return (
-    <Disclosure as="nav" className="bg-white shadow-sm">
+    <Disclosure as="nav" className="bg-white shadow-sm w-full">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -37,7 +37,7 @@ export default function Navbar() {
               <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
             <div className="flex shrink-0 items-center">
               <img
                 alt="Anugerah Cipta Arsitektur"
@@ -75,7 +75,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <DisclosurePanel className="sm:hidden">
+      <DisclosurePanel className="md:hidden">
         <div className="space-y-1 px-2 pt-2 pb-3">
           {navigation.map((item) => (
             <DisclosureButton
@@ -86,6 +86,7 @@ export default function Navbar() {
                 'block rounded-md px-3 py-2 text-base font-medium text-emerald-100',
               )}
 				onClick={() => {
+				item.current = true;
 				let hero = document.getElementById(item.id);
 				if (hero) {
 					hero.scrollIntoView({ behavior: "smooth", block: "start" });

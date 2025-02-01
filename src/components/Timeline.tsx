@@ -17,7 +17,7 @@ export default function Timeline() {
 			<img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/group-task.png" alt="group-task"/>
               <h3 className="font-semibold text-lg mb-1">Konsultasi</h3>
               <p className="leading-tight text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
+                Klien Konsultasi dengan arsitek perihal rencana renovasi atau pembangunan 
               </p>
 			  <a aria-label="Chat on WhatsApp" href="https://wa.me/6285143319350?text=Halo%20kak%21%20Saya%20ingin%20melakukan%20konsultasi%20terkait%20dengan%20desain%20untuk%20rumah%20impian%20saya%20%21%0A%0ASaya%20mendapatkan%20nomor%20ini%20dari%20website%20anugerah%20cipta%20arsitektur%21">
 			  <img className="relative  my-4" alt="Chat on WhatsApp" src="../WhatsAppButtonWhiteMedium.svg"/>
@@ -44,7 +44,7 @@ export default function Timeline() {
 			<img width="64" height="64" src="https://img.icons8.com/ios-filled/64/FFFFFF/land-surveying.png" alt="land-surveying"/>
               <h3 className="font-semibold text-lg mb-1">Survey</h3>
               <p className="leading-tight text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, facilis.
+                Arsitek melakukan survey ke area yang ingin dibangun atau renovasi
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Timeline() {
              <img width="64" height="64" src="https://img.icons8.com/external-nawicon-glyph-nawicon/64/FFFFFF/external-Blueprint-real-estate-nawicon-glyph-nawicon.png" alt="external-Blueprint-real-estate-nawicon-glyph-nawicon"/>
 			  <h3 className="font-semibold text-lg mb-1">Desain</h3>
               <p className="leading-tight text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
+                Arsitek mendesain rumah atau bangunan berdasarkan hasil konsultasi
               </p>
             </div>
             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -97,7 +97,7 @@ export default function Timeline() {
              <img width="64" height="64" src="https://img.icons8.com/forma-bold-filled/64/FFFFFF/send-mass-email.png" alt="send-mass-email"/>
 			  <h3 className="font-semibold text-lg mb-1">Pengiriman</h3>
               <p className="leading-tight text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, facilis.
+                Arsitek mengirim hasil desain kepada klien untuk ditinjau oleh klien
               </p>
             </div>
           </div>

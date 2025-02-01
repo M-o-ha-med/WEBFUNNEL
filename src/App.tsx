@@ -6,7 +6,10 @@ import Timeline from './components/Timeline.tsx'
 import Timeline_Planning from './components/Timeline_Planning.tsx'
 import Banner from './components/Banner.tsx'
 import ExperienceSection from './components/ExperienceSection.tsx'
-
+import VisionAndMission from './components/VisionAndMission.tsx'
+import Portofolio from './components/Portofolio.tsx'
+import AboutUs from './components/AboutUs.tsx'
+import Articles from './components/Articles.tsx'
 
 function App() {
 
@@ -16,10 +19,14 @@ function App() {
   
     <Navbar />
 	<Banner/>
+	<AboutUs />
+	<VisionAndMission />
 	<ExperienceSection />
+	<Portofolio />
 	<Timeline />
 	<Timeline_Planning />
 	<Testimonials />
+	<Articles />
 	<Footer />
   </>
   );

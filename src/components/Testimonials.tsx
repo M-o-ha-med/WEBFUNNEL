@@ -139,14 +139,14 @@ return (
 <section className="bg-white" id="Testimoni">
   <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
     <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-      Read trusted reviews from our customers
+      Testimoni dari klien Anugerah cipta arsitektur
     </h2>
 
     <div className="mt-8">
       <div ref={sliderRef} className="keen-slider">
 	  {reviewData.map((item) => (
-        <div className="keen-slider__slide opacity-40 transition-opacity duration-500">
-          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+        <div className="keen-slider__slide opacity-40 transition-opacity duration-500" key={item.name}>
+          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8" >
             <div className="flex items-center gap-4">
               <img
                 alt=""
