@@ -82,8 +82,8 @@ export default function Navbar() {
               key={item.name}
               as="a"
               className={classNames(
-                item.current ? 'bg-gray-900 text-emerald-100' : 'text-emerald-400 hover:bg-gray-700 hover:text-emerald-100',
-                'block rounded-md px-3 py-2 text-base font-medium text-emerald-100',
+                item.current ? ' ext-bilbao-700' : 'text-bilbao-700',
+                'block rounded-md px-3 py-2 text-base font-medium text-bilbao-700',
               )}
 				onClick={() => {
 				item.current = true;
