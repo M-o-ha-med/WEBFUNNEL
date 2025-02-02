@@ -11,47 +11,58 @@ import "keen-slider/keen-slider.min.css";
   const reviewData  = [
 	{
 	  name : "Hana Shofa Aulia" , 
-	  review:"Pelayanannya oke banget, transparan & bisa menyesuaikan dengan budget client. Arsiteknya bisa menuangkan kebutuhan kami dengan detail pada design yang dibuat. Good job!"
+	  review:"Pelayanannya oke banget, transparan & bisa menyesuaikan dengan budget client. Arsiteknya bisa menuangkan kebutuhan kami dengan detail pada design yang dibuat. Good job!",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Dedy S",
-	  review: "Rekomendasi banget pakai jasa arsitek disini! Bisa mewujudkan ide desain sesuai keinginan yang kita mau mulai dari desain klasik, modern, mewah dan masih banyak lagi.. Yang penting anggaran sama pengerjaan tetap efisien 👍👍 …"
+	  review: "Rekomendasi banget pakai jasa arsitek disini! Bisa mewujudkan ide desain sesuai keinginan yang kita mau mulai dari desain klasik, modern, mewah dan masih banyak lagi.. Yang penting anggaran sama pengerjaan tetap efisien 👍👍 …",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ediyansyah Rayyan",
-	  review: "Pake jasa desain Anugerah Cipta Arsitektur memang pas. Pelayanannya baik, konsultasi mudah dan ramah, hasil desainnya sesuai dngan keinginan, dan harga terjangkau."
+	  review: "Pake jasa desain Anugerah Cipta Arsitektur memang pas. Pelayanannya baik, konsultasi mudah dan ramah, hasil desainnya sesuai dngan keinginan, dan harga terjangkau.",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Rina Maulina",
-	  review: "Jasa arsitektur paling sat set mah menurut aku..paling gercep, paling oke desainnya, transparan, ramah dikantong. Skuy recommended!!!"
+	  review: "Jasa arsitektur paling sat set mah menurut aku..paling gercep, paling oke desainnya, transparan, ramah dikantong. Skuy recommended!!!",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Shaka Wahyu",
-	  review: "Desainnya Bagus, sangat memuaskan, Pelayananya jga sangat baik semoga kedepannya bisa lebih sempurna lagi"
+	  review: "Desainnya Bagus, sangat memuaskan, Pelayananya jga sangat baik semoga kedepannya bisa lebih sempurna lagi",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Arfan Wicaksono",
-	  review: "Kalo butuh desain mening disini, kualitas baik dan komunikasi enak juga, ngga kaku"
+	  review: "Kalo butuh desain mening disini, kualitas baik dan komunikasi enak juga, ngga kaku",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ains Adifen",
-	  review: "Harga bersahabat, pekerjaan cepat. Rekomendasi banget yg butuh design baik pribadi maupun instansi. Sllu jadi langganan"
+	  review: "Harga bersahabat, pekerjaan cepat. Rekomendasi banget yg butuh design baik pribadi maupun instansi. Sllu jadi langganan",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Puji Saeful",
-	  review: "Desain nya sesuai dan keren pastinya... Pokoknya Jasa Desain Arsitektur disini aja"
+	  review: "Desain nya sesuai dan keren pastinya... Pokoknya Jasa Desain Arsitektur disini aja",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ahmad Zaeni",
-	  review: "Salah satu arsitek terpercaya hasil desain yang memuaskan, mantap"
+	  review: "Salah satu arsitek terpercaya hasil desain yang memuaskan, mantap",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Muhammad Febryan",
-	  review: "jasa arsitektur paling mantep pokoknya di bandung!! recomended deh."
+	  review: "jasa arsitektur paling mantep pokoknya di bandung!! recomended deh.",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ikzir Zirs",
-	  review: "Salah satu jasa arsitek terbaik di bandung, pelaksaan yang cepat dengan budget sesuai dengan kesepakatan"
+	  review: "Salah satu jasa arsitek terbaik di bandung, pelaksaan yang cepat dengan budget sesuai dengan kesepakatan",
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
 	},
   ]
 
@@ -150,7 +161,7 @@ return (
             <div className="flex items-center gap-4">
               <img
                 alt=""
-                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                src={item.ProfilePic}
                 className="size-14 rounded-full object-cover"
               />
 
