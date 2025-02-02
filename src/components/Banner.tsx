@@ -14,9 +14,9 @@ return (
   >
     <div className="max-w-xl  ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl text-bilbao-600 font-extrabold sm:text-5xl ">
-       Merancang masa depan 
+       Merancang Masa Depan 
 
-        <strong className="block font-extrabold text-emerald-600"> Melebihi ekspektasi anda </strong>
+        <strong className="block font-extrabold text-emerald-600"> Melebihi Ekspektasi Anda. </strong>
       </h1>
 
       <p className="mt-4 max-w-lg text-justify sm:text-xl/relaxed font-semibold">
