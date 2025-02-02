@@ -12,7 +12,7 @@ import "keen-slider/keen-slider.min.css";
 	{
 	  name : "Hana Shofa Aulia" , 
 	  review:"Pelayanannya oke banget, transparan & bisa menyesuaikan dengan budget client. Arsiteknya bisa menuangkan kebutuhan kami dengan detail pada design yang dibuat. Good job!",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a/ACg8ocJyyH15s2TjiJGzh29tAB8-skzd7s7qN_uQK7IfgjnkJAn4uIY=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Dedy S",
@@ -22,47 +22,47 @@ import "keen-slider/keen-slider.min.css";
 	{
 	  name: "Ediyansyah Rayyan",
 	  review: "Pake jasa desain Anugerah Cipta Arsitektur memang pas. Pelayanannya baik, konsultasi mudah dan ramah, hasil desainnya sesuai dngan keinginan, dan harga terjangkau.",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a/ACg8ocLLdq85YHGDb_VbirqVMEbrJPpopIA14nhVTBheLahbc2ZLUQ=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Rina Maulina",
 	  review: "Jasa arsitektur paling sat set mah menurut aku..paling gercep, paling oke desainnya, transparan, ramah dikantong. Skuy recommended!!!",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjWdt0oZmhdjhuzatI5Irmqf9eRnYbe1K0hp-ol9MJnzzxERCk0=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Shaka Wahyu",
 	  review: "Desainnya Bagus, sangat memuaskan, Pelayananya jga sangat baik semoga kedepannya bisa lebih sempurna lagi",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjWV2NXs7Bu4NcispWfDqLsZkPJ_tBPDU_rOJbnygedIxVUEcSR_=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Arfan Wicaksono",
 	  review: "Kalo butuh desain mening disini, kualitas baik dan komunikasi enak juga, ngga kaku",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjX_uTEE0Y--w10FVkEAGkraFkknR4GnI5i2AOJrzqoOQkpepwfr=w36-h36-p-rp-mo-ba2-br100"
 	},
 	{
 	  name: "Ains Adifen",
 	  review: "Harga bersahabat, pekerjaan cepat. Rekomendasi banget yg butuh design baik pribadi maupun instansi. Sllu jadi langganan",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjVOGctpd9VFeDIVaxAjD65k7D1ZbbC48vc7L5haqLQ-8D85pkQRcw=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Puji Saeful",
 	  review: "Desain nya sesuai dan keren pastinya... Pokoknya Jasa Desain Arsitektur disini aja",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjWqzavg0YXu2SIZiAvKAxGEjIymsGuUxOukUPu7cfnIHiBdhE4=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ahmad Zaeni",
 	  review: "Salah satu arsitek terpercaya hasil desain yang memuaskan, mantap",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXYe0JvFDmJG22JJyPKlULOD4tluomyxXgnY3_AYq2jelnUspo4=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Muhammad Febryan",
 	  review: "jasa arsitektur paling mantep pokoknya di bandung!! recomended deh.",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a/ACg8ocJmN_GuptbV2r1e5lLntGYUUde4PQQvERNHx0d2mlXBHlPXbSA=w36-h36-p-rp-mo-br100"
 	},
 	{
 	  name: "Ikzir Zirs",
 	  review: "Salah satu jasa arsitek terbaik di bandung, pelaksaan yang cepat dengan budget sesuai dengan kesepakatan",
-	  ProfilePic : "https://lh3.googleusercontent.com/a-/ALV-UjXie-Z2HogALaAdR2kgwA_WN90Z2m8Fw_68wnvXDezd7zcozAtf=w36-h36-p-rp-mo-br100"
+	  ProfilePic : "https://lh3.googleusercontent.com/a/ACg8ocJ8SWrjYAdxIQGZh967gYGU3Cw91shbC8XmKA_Sn9NzUrznxQ=w36-h36-p-rp-mo-br100"
 	},
   ]
 
