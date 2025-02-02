@@ -1,11 +1,11 @@
 import { useState } from "react";
 import sampul_depan from "../assets/Rumah_Pak_Yopi/Sampul_depan.jpeg";
 const Portofolio = () => {
-  //const [showCard, setShowCard] = useState<string>("all");
+  const [showCard, setShowCard] = useState<string>("all");
 
-  /* const handleProject = (category : string) => {
+    const handleProject = (category : string) => {
     setShowCard(category);
-  }; */
+}
 
   return (
     <>
@@ -24,7 +24,7 @@ const Portofolio = () => {
             </div>
           </div>
 
-   {/*       <div className="w-full flex flex-wrap justify-center -mx-4">
+          <div className="w-full flex flex-wrap justify-center -mx-4">
             <div className="w-full px-4">
               <ul className="flex flex-wrap justify-center mb-12 space-x-1">
                 <li className="mb-1">
@@ -63,33 +63,10 @@ const Portofolio = () => {
                     Tempat ibadah
                   </button>
                 </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("marketing")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "marketing"
-                        ? "activeClasses bg-bilbao-700  text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-bilbao-700 hover:text-white"
-                    }`}
-                  >
-                    Marketing
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject("development")}
-                    className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === "development"
-                        ? "activeClasses bg-bilbao-700  text-white"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-bilbao-700 hover:text-white"
-                    }`}
-                  >
-                    Development
-                  </button>
-                </li>
+ 
               </ul>
             </div>
-          </div>*/}
+          </div>
           <div className="flex flex-wrap -mx-4">
             <PortfolioCard
               ImageHref={sampul_depan}
@@ -109,12 +86,12 @@ const Portofolio = () => {
 export default Portofolio;
 
 interface portofolioCardprops {
-  showCard : string;
   category : string;
   ImageHref : string;
   title : string;
   button : string;
   buttonHref : string;
+  showCard : string;
 
 }
 const PortfolioCard = (props:portofolioCardprops) => {
