@@ -11,7 +11,7 @@ interface Article {
 
 function ArticleCard(props:Article){
 	return (
-		<div className="h-[35rem] p-2 w-9/10 xl:w-1/4 md:w-1/2 rounded-md ring-2 ring-gray-100 shadow-md flow-hiddens">
+		<div className="h-[38rem] p-2 w-9/10 xl:w-1/4 md:w-1/2 rounded-md ring-2 ring-gray-100 shadow-md flow-hiddens">
 			<img src={props.Imagehref} alt="Article cover" className="w-full rounded-md "/>
 			<h5 className="p-2 text-md xl:text-2xl md:text-xl font-bold">{props.title}</h5>
 			<div className="flex flex-wrap gap-2 p-1 m-2">
