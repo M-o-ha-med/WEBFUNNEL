@@ -13,7 +13,7 @@ export default function Timeline() {
         <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-bilbao-700 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-bilbao-700 w-[30rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
 			<img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/group-task.png" alt="group-task"/>
               <h3 className="font-semibold text-lg mb-1">Konsultasi</h3>
               <p className="leading-tight text-justify">
@@ -40,7 +40,7 @@ export default function Timeline() {
               </div>
               <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-emerald-500 shadow"></div>
             </div>
-            <div className="bg-bilbao-700 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="bg-bilbao-700 w-[30rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
 			<img width="64" height="64" src="https://img.icons8.com/ios-filled/64/FFFFFF/land-surveying.png" alt="land-surveying"/>
               <h3 className="font-semibold text-lg mb-1">Survey</h3>
               <p className="leading-tight text-justify">
@@ -52,7 +52,7 @@ export default function Timeline() {
 		  
           {/* Left */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-bilbao-700 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-bilbao-700 w-[30rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
              <img width="64" height="64" src="https://img.icons8.com/external-nawicon-glyph-nawicon/64/FFFFFF/external-Blueprint-real-estate-nawicon-glyph-nawicon.png" alt="external-Blueprint-real-estate-nawicon-glyph-nawicon"/>
 			  <h3 className="font-semibold text-lg mb-1">Desain</h3>
               <p className="leading-tight text-justify">
@@ -70,7 +70,7 @@ export default function Timeline() {
 		  
           {/* Left 
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-bilbao-700 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="bg-bilbao-700 w-[30rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Revisi</h3>
               <p className="leading-tight text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat?
@@ -93,7 +93,7 @@ export default function Timeline() {
               </div>
               <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-emerald-500 shadow"></div>
             </div>
-            <div className="bg-bilbao-700 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="bg-bilbao-700 w-[30rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
              <img width="64" height="64" src="https://img.icons8.com/forma-bold-filled/64/FFFFFF/send-mass-email.png" alt="send-mass-email"/>
 			  <h3 className="font-semibold text-lg mb-1">Pengiriman</h3>
               <p className="leading-tight text-justify">
