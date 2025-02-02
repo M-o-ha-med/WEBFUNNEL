@@ -12,10 +12,12 @@ createRoot(document.getElementById('root')!).render(
 
   <StrictMode>
 	<BrowserRouter>
+		<Router>
 		<Routes>
 			<Route path="/" element={<App />} />
 			<Route path="/ModernTropicalHouseAceh" element={<Portfolio_details />} />
 			<Route path="/bagaimana-cara-arsitek-mendesain-suatu-bangunan" element={<ArticlePage />} />
+		</Routes>
 		</Routes>
 	</BrowserRouter>
   </StrictMode>,
